@@ -1,0 +1,16 @@
+"""This file is used to config keys"""
+import os
+
+GAIA_DB_HOST = os.getenv("GAIA_DB_HOST")
+GAIA_DB_PORT = os.getenv("GAIA_DB_PORT")
+GAIA_DB_USER = os.getenv("GAIA_DB_USER")
+GAIA_DB_PASSWORD = os.getenv("GAIA_DB_PASSWORD")
+GAIA_DB_DB = os.getenv("GAIA_DB_DB")
+COINMARKETCAP_API_KEY = os.getenv("COINMARKETCAP_API_KEY")
+KAIKO_API_KEY = os.getenv("KAIKO_API_KEY")
+HUOBI_API_KEY = os.getenv("HUOBI_API_KEY")
+HOBI_SECRET_KEY = os.getenv("HOBI_SECRET_KEY")
+OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
+TELEGRAM_API_ID=os.getenv("TELEGRAM_API_ID")
+TELEGRAM_API_HASH=os.getenv("TELEGRAM_API_HASH")
+COINGECKO_API_KEY=os.getenv("COINGECKO_API_KEY")
